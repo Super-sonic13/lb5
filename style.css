@@ -1,0 +1,102 @@
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.one,
+.six {
+  background-color: cornflowerblue;
+
+  height: 25vh;
+}
+
+.two,
+.five {
+  background-color: antiquewhite;
+  /* height: 200px;
+  width: 100px; */
+  height: 50vh;
+  width: 25vw;
+}
+
+.three {
+  background-color: aquamarine;
+}
+
+.one {
+}
+
+.two {
+}
+
+.three {
+}
+
+.four {
+  width: 100%;
+}
+
+.five {
+  height: 47vh;
+}
+
+.six {
+}
+
+.container2345 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container345 {
+  width: 100%;
+}
+
+.container45 {
+  display: flex;
+}
+
+.x,
+.y {
+  background-color: aliceblue;
+  display: inline-block;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
