@@ -60,7 +60,11 @@ h2 {
 .x,
 .y {
   background-color: aliceblue;
-  display: inline-block;
+  /* display: inline-block; */
+}
+
+#y {
+  text-align: right;
 }
 
 .modal {
@@ -73,8 +77,8 @@ h2 {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -99,4 +103,16 @@ h2 {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+table {
+  border: 1px solid black;
+}
+
+tr{
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
 }
